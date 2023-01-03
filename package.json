@@ -1,19 +1,17 @@
 {
-  "name": "apollo-for-timescale",
-  "packageManager": "yarn@3.3.1",
-  "type": "module",
+  "name": "api-for-timescale",
   "scripts": {
-    "compile": "tsc",
+    "build": "tsc",
+    "watch": "tsc -w",
+    "prestart": "yarn run build",
+    "start": "func start",
     "test": "NODE_ENV=test jest --verbose --runInBand --forceExit",
-    "start": "npm run compile && node ./dist/index.js",
     "dev": "NODE_ENV=development nodemon index.js",
-    "lint": "eslint .",
-    "start:test": "NODE_ENV=test node index.js"
-  },
-  "dependencies": {
-    "dotenv-vault": "^1.17.0"
+    "lint": "eslint ."
   },
   "devDependencies": {
+    "@azure/functions": "^3.5.0",
+    "@types/eslint": "^8",
     "@types/node": "^18.11.18",
     "eslint": "^8.31.0",
     "jest": "^29.3.1",
