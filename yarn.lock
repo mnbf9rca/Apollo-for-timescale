@@ -61,9 +61,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@apollo/server@npm:^4.3.0":
-  version: 4.3.0
-  resolution: "@apollo/server@npm:4.3.0"
+"@apollo/server@npm:^4.3.1":
+  version: 4.3.1
+  resolution: "@apollo/server@npm:4.3.1"
   dependencies:
     "@apollo/cache-control-types": "npm:^1.0.2"
     "@apollo/server-gateway-interface": "npm:^1.0.7"
@@ -93,7 +93,7 @@ __metadata:
     whatwg-mimetype: "npm:^3.0.0"
   peerDependencies:
     graphql: ^16.6.0
-  checksum: 90e032cac310d176344bd53b0ea0b7a4fb064f02b90dfaeb596ed484d0fb17660d907ed0aee17af1e494f8590799148f8ce2cf6bd6cef75b8964700951f4b75d
+  checksum: 06e568c9603cf716903270ecc44c446e2a8a9228e5364fe5897e28fea2276ad5c432b13e701345029ec70c179431a99003197680d8c02a1209c6861ae4c43962
   languageName: node
   linkType: hard
 
@@ -1632,7 +1632,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "apollo-for-timescale@workspace:."
   dependencies:
-    "@apollo/server": "npm:^4.3.0"
+    "@apollo/server": "npm:^4.3.1"
     "@types/node": "npm:^18.11.18"
     dotenv-vault: "npm:^1.17.0"
     eslint: "npm:^8.32.0"
